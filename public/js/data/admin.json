@@ -1,0 +1,52 @@
+{
+    "contacto": {
+      "direccion": "Carrera 12 # 11 -45 barrio  20  de julio villa del rosario -Norte de Santander",
+      "telefonos": [
+        {
+          "tipo": "whatsap",
+          "numero": "573107274921"
+        },
+        {
+          "tipo": "fijo",
+          "numero": ""
+        }
+      ],
+      "correos": [
+        {
+          "tipo": "correo",
+          "correo": "patmpedro233@gmail.com"
+        }
+      ],
+      "social": [
+        {
+          "tipo": "facebook",
+          "correo": "https://www.facebook.com/profile.php?id=61568288884896&locale=es_LA"
+        }
+      ],
+      "horarios": {
+        "lunes_viernes": "9:00 AM - 6:00 PM",
+        "sabado": "10:00 AM - 2:00 PM",
+        "domingo": "Cerrado"
+      }
+    },
+    "quienes_somos": {
+      "mision": "Nuestra misión es proporcionar productos y servicios de la más alta calidad para mejorar la vida de nuestros clientes, con un enfoque en la sostenibilidad y la innovación.",
+      "vision": "Ser líderes en nuestro sector, reconocidos por nuestra excelencia en productos, servicio al cliente y compromiso con el medio ambiente.",
+      "valores": [
+        "Compromiso con la calidad",
+        "Sostenibilidad",
+        "Innovación",
+        "Integridad",
+        "Responsabilidad social"
+      ]
+    },
+    "politicas": {
+      "politica_privacidad": "Nos comprometemos a proteger la privacidad de nuestros clientes. Recopilamos solo la información necesaria para brindar nuestros servicios y no compartimos tus datos con terceros sin tu consentimiento.",
+      "politica_legal": "Nuestros productos y servicios cumplen con todas las regulaciones legales pertinentes. Cualquier disputa legal será resuelta bajo las leyes del País Ejemplo.",
+      "terminos_condiciones": "Al utilizar nuestros servicios, aceptas los términos y condiciones establecidos, los cuales incluyen el uso adecuado de nuestros productos, restricciones de responsabilidad y el cumplimiento de las leyes locales."
+    },
+    "faq":{
+      "¿Cómo puedo hacer un pedido?": "Para hacer un pedido, simplemente selecciona los productos y agréguelos al carrito. Luego, procede al checkout."
+    }
+  }
+  

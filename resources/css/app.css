@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'flowbite';
+/* resources/css/app.css */
+/* para el efecto  de deletrear, uso letra.js */
+.deletrear {
+    display: inline-block;
+    white-space: nowrap;  /* Evitar que el texto se divida en varias líneas */
+    overflow: hidden;     /* Esconde lo que no está aún escrito */
+  }
+  
+  .hidden-text {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  
+/* Clase que se aplicará a las imágenes con el efecto de zoom */
+.zoom-image {
+    transition: transform 0.3s ease; /* Suaviza el efecto de zoom */
+}
+
+/* Clase cuando se pasa el mouse sobre la imagen */
+.zoom-image:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen al 110% */
+    cursor: pointer; /* Cambia el cursor para indicar que es interactivo */
+}
