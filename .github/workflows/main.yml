@@ -1,0 +1,27 @@
+name: Deploy to Railway
+
+on:
+  push:
+    branches:
+      - main  # Cambia esto si usas otra rama principal (como master)
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: 8.1  # Ajusta a la versión de PHP que uses en tu proyecto
+
+      - name: Install dependencies
+        run: composer install --no-dev --optimize-autoloader
+
+      - name: Execute Artisan Commands
+        run: |
+          php artisan config:clear
+          php artisan cache:clear
+          php artisan config:cache
