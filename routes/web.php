@@ -6,7 +6,7 @@ use App\Http\Controllers\PaginaController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\CarritoController;
 use App\Http\Controllers\ContactController;
-use App;
+
 Route::get('/', [PaginaController::class, 'index'])->name('inicio');
 Route::get('/productos', [ProductoController::class, 'index'])->name('productos.index');
 Route::get('/contacto', [PaginaController::class, 'contacto'])->name('contacto');
